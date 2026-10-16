@@ -1,0 +1,5 @@
+
+experiment,model,method,metric,score,notes
+1,LogisticRegression,Optuna CV,ROC-AUC,,Hyperparameter tuning
+2,LogisticRegression,OOF predictions,ROC-AUC,,Five-fold predictions
+3,StackingClassifier,Test evaluation,Accuracy,,Logistic Regression + Random Forest
